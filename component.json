@@ -1,0 +1,8 @@
+{
+  "name": "angular-antiscroll",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "~1.2.0",
+    "jquery": "~1.9.1",
+  }
+}
