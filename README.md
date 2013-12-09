@@ -14,15 +14,21 @@ this is an Angular Directive of antiscroll. It could be called by angular way.
 # Usage:
 1. include ```antiscroll.css```
 
+```html
     <link href="bower_components/antiscroll/antiscroll.css" rel="stylesheet" />
+```
 
 2. include "antiscroll" module.
 
+```javascript
     var App = angular.module('app', ['antiscroll']);
+```
 
-2. add antiscroll attribute in element which you want to use antiscroll.
+3. add antiscroll attribute in element which you want to use antiscroll. use ";" to seperate each option.
 
+```html
     <table antiscroll="autoHide:false">
+```
 
 # LICENSE
 
