@@ -1,7 +1,9 @@
 angular-antiscroll
 
 # Note:
+
 this is an Angular Directive of antiscroll. It could be called by angular way.
+
 ==================
 # Dependency:
 1. [jQuery](http://github.com/jquery/query)
