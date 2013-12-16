@@ -1,6 +1,6 @@
-angular-antiscroll
+Use [antiscroll](https://github.com/LearnBoost/antiscroll) in Angular way. 
 
-# Note:
+# What
 
 this is an Angular Directive of antiscroll. It could be called by angular way.
 
