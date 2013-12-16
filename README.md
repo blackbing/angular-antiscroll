@@ -12,19 +12,26 @@ this is an Angular Directive of antiscroll. It could be called by angular way.
 4. [Antiscroll](https://github.com/LearnBoost/antiscroll)
 
 # Usage:
-1. include ```antiscroll.css```
+1. ```bower install angular-antiscroll```
+
+2. include file ```antiscroll.css```
 
 ```html
+    <!-- include dependency -->
+    <script src="bower_components/jquery-mousewheel.js"></script>
+    <script src="bower_components/antiscroll/antiscroll.js"></script>
+    <script src="bower_components/antiscroll/angular-antiscroll.js"></script>
+    <!-- include css-->
     <link href="bower_components/antiscroll/antiscroll.css" rel="stylesheet" />
 ```
 
-2. include "antiscroll" module.
+3. include "antiscroll" module in your app.
 
 ```javascript
     var App = angular.module('app', ['antiscroll']);
 ```
 
-3. add antiscroll attribute in element which you want to use antiscroll. use ";" to seperate each option.
+4. add antiscroll attribute in element which you want to use antiscroll. use ";" to seperate each option.
 
 ```html
     <table antiscroll="autoHide:false">
